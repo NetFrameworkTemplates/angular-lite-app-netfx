@@ -97,13 +97,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
-    <Content Include="webpack.config.vendor.js" />
-    <Content Include="wwwroot\index.html" />
-    <Content Include="package-lock.json" />
-    <None Include="packages.config" />
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="src\assets\img\android-desktop.png" />
@@ -134,15 +131,17 @@
     <TypeScriptCompile Include="src\main.ts" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="wwwroot\index.html" />
     <Content Include="index.template.ejs" />
     <Content Include="package.json" />
+    <Content Include="package-lock.json" />
     <Content Include="tsconfig.json" />
     <Content Include="gulpfile.js" />
-    <Content Include="webpack.config.js" />
     <Content Include="karma.conf.js" />
     <Content Include="karma-shim.js" />
+    <Content Include="webpack.config.js" />
+    <Content Include="webpack.config.vendor.js" />
   </ItemGroup>
-  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
