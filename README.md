@@ -6,7 +6,7 @@ ASP.NET v4.6.1 .NET Framework Angular4 and Material Design Lite Webpack App Temp
 
 > Browse [source code](https://github.com/NetFrameworkTemplates/angular-lite-spa-netfx), view live demo [angular-lite-spa.web-templates.io](http://angular-lite-spa.web-templates.io) and install with [dotnet-new](http://docs.servicestack.net/dotnet-new):
 
-    $ dotnet tool install --global web
+    $ dotnet tool install --global x
 
-    $ web new angular-lite-spa-netfx ProjectName
+    $ x new angular-lite-spa-netfx ProjectName
 
